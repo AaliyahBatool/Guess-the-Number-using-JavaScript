@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1 class="game-title">Guess the Number!</h1>
+            <p class="game-description">Guess a number between 1 and 100.</p>
+        </header>
+        
+        <div class="game-area">
+            <input type="number" id="guess" min="1" max="100" placeholder="Enter your guess" class="retro-input">
+            <button id="submit" class="retro-button">Submit Guess</button>
+        </div>
+
+        <div class="message-area">
+            <p id="message" class="retro-text"></p>
+            <p id="attempts" class="retro-text">Attempts left: <span id="attempts-left">10</span></p>
+            <p id="guesses" class="retro-text">Guess: <span id="guesses-array"></span></p>
+            <p class="lowORhi"></p>
+        </div>
+        
+        <footer>
+            <p class="rules">You have 10 attempts to guess the correct number. Good luck!</p>
+        </footer>
+    </div>
+
+    <script src="number.js"></script>
+</body>
+</html>

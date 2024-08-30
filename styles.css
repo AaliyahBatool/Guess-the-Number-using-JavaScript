@@ -1,0 +1,99 @@
+/* Typography */
+body {
+    background-color: #f4e0dc;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1, .retro-button, .retro-text {
+    font-family: 'Press Start 2P', cursive;
+}
+
+p, input {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Layout */
+.game-container {
+    background: #d1b3c4;
+    border: 5px solid #8b5d76;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 0 #7d6c6c;
+    max-width: 400px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.game-title {
+    font-size: 1.8em;
+    color: #ffffff;
+    text-shadow: 2px 2px 0 #ff007f, 4px 4px 0 #00ffff;
+    margin-bottom: 10px;
+}
+
+.game-description {
+    font-size: 1em;
+    color: #333;
+}
+
+/* Input and Button */
+.retro-input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.2em;
+    border: 3px solid #ff007f;
+    background-color: #f9f0f0;
+    box-shadow: 4px 4px 0 #00ffff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.retro-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #ff007f;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 4px 0 #00ffff;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.retro-button:hover {
+    background-color: #00ffff;
+    box-shadow: 4px 4px 0 #ff007f;
+}
+
+/* Message Area */
+.message-area {
+    margin-top: 20px;
+}
+
+#message, #attempts, #guesses, .lowORhi {
+    font-size: 1.2em;
+    color: #4d004d;
+    text-shadow: 1px 1px 0 #ff007f;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+}
+
+.rules {
+    font-size: 0.9em;
+    color: #666;
+}
